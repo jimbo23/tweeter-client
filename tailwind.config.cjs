@@ -8,7 +8,14 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
-
+    fontSize: {
+      xs: "0.75rem", // 12px,
+      sm: "1rem", // 16px
+      md: "1.25rem", // 16px
+      lg: "1.5rem", // 16px
+      xl: "1.75rem", // 16px
+      '2xl': "2rem", // 16px
+    },
     fontFamily: {
       sans: ["Noto Sans", "sans-serif"],
       serif: ["Merriweather", "serif"],
@@ -21,8 +28,12 @@ module.exports = {
       borderRadius: {
         "4xl": "2rem",
       },
+      backgroundColor: {
+        blue: {
+          700: "#2F80ED",
+        },
+      },
       colors: {
-        blue: "#2F80ED",
         pink: "#ff49db",
         orange: "#ff7849",
         "gray-dark": "#273444",
