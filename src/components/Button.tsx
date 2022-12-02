@@ -13,12 +13,11 @@ export const Button = ({
   isLoading = false,
 }: ButtonProps) => {
   //TODO: some loading icon when button is loading
-  const Icon = isLoading ? null : leftIcon;
+  const Icon = isLoading ? null : leftIcon; //TODO show a spinner when isLoading
 
   return (
-    <button className="font-normal flex text-sm bg-blue px-4 py-1 text-white rounded-sm hover:bg-red-800 active:bg-amber-300 transition duration-1000 ease-linear">
-      {/** @ts-ignore */}
-      <Icon className="self-center mr-1" />
+    <button className="font-normal flex text-sm bg-blue-700 px-4 py-1 text-white rounded-sm hover:bg-blue-500 active:bg-blue-600 transition duration-250 ease-linear">
+      {Icon && <Icon className="self-center mr-1" />}
       {children}
     </button>
   );
