@@ -8,14 +8,14 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
-
     fontFamily: {
       sans: ["Noto Sans", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
     extend: {
       fontSize: {
-        xs: "0.75rem", // 12px,
+        '2xs': "0.75rem", // 12px,
+        xs: "0.875rem", // 14px,
         sm: "1rem", // 16px
         md: "1.25rem", // 20px
         lg: "1.5rem", // 24px
@@ -42,6 +42,9 @@ module.exports = {
         gray: "#8492a6",
         "gray-light": "#d3dce6",
       },
+      padding: {
+        '18': '4.5rem',
+      }
     },
   },
   plugins: [],
