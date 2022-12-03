@@ -7,6 +7,14 @@ export const NavBar = () => (
       <a>Explore</a>
       <a>Bookmarks</a>
     </div>
-    <p>kiefer</p>
+    <div className="flex space-x-2 items-center">
+      <img
+        alt="profile"
+        height={40}
+        width={40}
+        src="https://avatars.githubusercontent.com/u/77193140?v=4"
+      />
+      <p>kiefer</p>
+    </div>
   </nav>
 );
