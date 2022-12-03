@@ -1,5 +1,5 @@
-import { NavBar } from "@kiefer-tweeter/components/layout";
-import { Tweet } from "@kiefer-tweeter/features/tweet/components/Tweet";
+import { NavBar } from "@app/components/layout";
+import { Tweet } from "@app/features/tweet/components/Tweet";
 
 export const TweetPage = () => (
   <>

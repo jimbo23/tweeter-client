@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: [
       // @ts-ignore
-      { find: "@kiefer-tweeter", replacement: path.resolve(__dirname, "/src") },
+      { find: "@app", replacement: path.resolve(__dirname, "/src") },
     ],
   },
   plugins: [react()],

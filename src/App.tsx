@@ -1,4 +1,4 @@
-import { TweetPage } from "@kiefer-tweeter/features/tweet";
+import { TweetPage } from "@app/features/tweet";
 
 function App() {
   return (
