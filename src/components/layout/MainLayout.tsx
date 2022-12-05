@@ -1,7 +1,13 @@
+import React from "react";
 import { NavBar } from "./NavBar";
 
-export const MainLayout = () => (
+interface MainLayoutProps {
+  children: React.ReactNode;
+}
+
+export const MainLayout = ({ children }: MainLayoutProps) => (
   <>
     <NavBar />
+    <div className="container mx-auto">{children}</div>
   </>
 );
