@@ -1,9 +1,9 @@
-import { TweetPage } from "@app/features/tweet";
+import { MainRoute } from "@app/routes";
 
 function App() {
   return (
     <>
-      <TweetPage />
+      <MainRoute />
     </>
   );
 }

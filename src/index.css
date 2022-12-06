@@ -16,6 +16,9 @@
     a {
         @apply text-xs;
     }
+    body {
+        @apply bg-blue-100
+    }
 
 }
 @tailwind components;
