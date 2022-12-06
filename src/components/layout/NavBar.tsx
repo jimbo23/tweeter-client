@@ -1,6 +1,6 @@
 import TweeterLogo from "@app/assets/tweeter.svg";
 export const NavBar = () => (
-  <nav className="flex sticky top-0 justify-between items-center h-16 bg-white w-full px-18">
+  <nav className="flex sticky shadow-lg top-0 justify-between items-center h-16 bg-white w-full px-18">
     <img src={TweeterLogo} alt="logo" />
     <div className="flex space-x-20">
       <a>Home</a>
